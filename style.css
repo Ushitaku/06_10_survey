@@ -1,0 +1,100 @@
+html , body{
+    text-align: center;
+    font-family: vdl-logog, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(255, 236, 210);
+}
+
+h1 {
+    font-size: 3.0em;
+    position: relative;
+    padding: 1rem 2rem calc(1rem + 10px);
+    background: #fff100;
+}
+
+h1:before {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border: 4px solid #000;
+}
+
+img{
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    padding: 3px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+/* リンクボタンの設定 */
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin-bottom: 20px;
+}
+
+a.btn--yellow {
+  color: #000;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+/* リンクボタンの設定ここまで */
+
+/* 投票ボタンの設定 */
+
+/* リンクボタンの設定 */
+button{
+    font-family: vdl-logog, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flame{
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.form-text input[type="radio"] {
+  /* display: none; */
+   -webkit-transform: scale(1.5);
+   transform: scale(1.5);
+}
+
+input[type="radio"] :checked + label img {
+  background: rgb(255, 255, 255);
+}
