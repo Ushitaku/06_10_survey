@@ -57,11 +57,11 @@ fclose($file); // ファイル閉じる
 </head>
 
 <body>
-  <h1>君は分かってるね～！今年に向けて予習しよう！</h1>
+  <h1>分かってないな～。出直してこい！！</h1>
   <fieldset>
-    <legend>たなくじの予習、写真に撮って運試し！</legend>
+    <legend></legend>
     <table>
-      <img src="img/tanakuji_2016_2.gif" alt="">
+      <img src="img/original.gif" alt="">
     </table>
     <a href="survey_txt_input.php" class="btn btn--yellow btn--cubic">入力画面に戻る</a>
 

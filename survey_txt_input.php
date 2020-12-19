@@ -47,7 +47,7 @@
 <body>
   <h1>大晦日は、TV何観る？</h1>
   <form action="survey_txt_create.php" method="POST">
-    <a href="survey_txt_read.php" class="btn btn--yellow btn--cubic">アンケート結果を見る</a>
+    <!-- <a href="survey_txt_read.php" class="btn btn--yellow btn--cubic">アンケート結果を見る</a> -->
 
     <fieldset>
       <legend>TV番組一覧</legend>
